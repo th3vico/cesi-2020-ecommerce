@@ -1,0 +1,173 @@
+/*
+Theme Name: Theme enfant de Storefront
+Description: Theme enfant de Victor Herbreteau
+Author: Victor - CESI
+Author URI: 
+Template: storefront
+Version: 0.1.0
+*/
+
+/* Gestion du Header */
+
+
+#masthead{
+margin-bottom: 0 !important;
+
+}
+
+.site-header{
+    padding-top: 10px;
+
+}
+
+.ajax_add_to_cart{
+    color: white;
+    background-color: #187f16;
+}
+
+.remove_from_cart_button{
+    color:white;
+}
+
+.site-branding {
+    width: 30% !important;
+    float: left;
+}
+
+.menu-navigation{
+    width: 100%;
+}
+
+
+/* Page validation commande */
+
+.woocommerce-info{
+    background-color: #187f16;
+}
+
+.woocommerce-privacy-policy-link{
+    color: #187f16;
+}
+
+#place_order, .button .checkout .wc-forward{
+    background-color: #187f16;
+}
+
+.storefront-breadcrumb{
+    margin-bottom: 0; 
+}
+
+
+
+/* Footer */
+
+.site-footer {
+    padding: 0;
+    background-color: #187f16;
+}
+
+/* Page Produit*/
+
+.storefront-product-pagination{
+    display: none;
+}
+
+button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .widget-area .widget a.button.alt{
+    background-color: #187f16;
+}
+
+button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .widget-area .widget a.button.alt:hover{
+    background-color: darkgreen;
+}
+.added_to_cart.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover{
+    background-color: darkgreen;
+}
+
+
+.added_to_cart.alt, .added_to_cart, .widget a.button.checkout{
+    background-color: #187f16;
+}
+
+.woocommerce-product-gallery__image .flex-active-slide{
+    width: 400px;
+}
+
+
+
+
+/* Page Panier */
+
+.product-name a{
+    color: #187f16;
+}
+
+.shipping-calculator-button{
+    color: #187f16;
+}
+.product-name, .product-remove, .product-thumbnail, .product-price, .product-quantity, .product-subtotal{
+    background-color: #187f16;
+}
+
+.product-name .product-quantity{
+    background-color: transparent;
+}
+
+.remove .remove_from_cart_button{
+    color: black;
+}
+
+.woocommerce-mini-cart-item .mini_cart_item{
+    background-color: white;
+}
+
+table:not( .has-background ) th {
+    background-color: #187f16 !important;
+    color: white;
+}
+
+/* Page Paiement */
+
+#stripe-payment-data p a{
+    color: #187f16;
+}
+
+.woocommerce-terms-and-conditions-link{
+    color: #187f16;
+}
+
+/* Mon Compte */
+
+.woocommerce-MyAccount-navigation-link a{
+    color: black;
+}
+
+.woocommerce-MyAccount-content a{
+color: #187f16;
+}
+
+.woocommerce-form-login__submit{
+    background-color: #187f16;
+    color: white;
+}
+
+/* Footer */
+
+.storefront_credit{
+    display:none;
+   
+}
+.footer-widget-3{
+    display: none;
+}
+
+
+.submit_button_contact{
+    margin-top: 10px !important; 
+    padding-top: 10px;
+
+}
+
+.bouton_cookie {
+    background-color: white !important;
+    color:black !important;
+}
